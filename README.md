@@ -1,13 +1,14 @@
 # AVL-Tree
 AVL-tree implemented in Java
 
-###To add a node to the tree first create an instance of the BinaryTree class and run the add() method with the value of the node as an argument.
+###Add node
+To add a node to the tree first create an instance of the BinaryTree class and run the add() method with the value of the node as an argument.
 ```java
 BinaryTree bt = new BinaryTree();
 bt.add(5);
 ```
-
-###To delete a node simply run the delete() method on the tree instance with the value to delete as argument.
+###Delete node
+To delete a node simply run the delete() method on the tree instance with the value to delete as argument.
 ```java
 bt.delete(5);
 ```
